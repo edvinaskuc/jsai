@@ -2,7 +2,7 @@ let amzius = prompt("Įveskite savo amžių");
 
 if (isNaN(amzius)) {
   console.log("Netinkamai nurodytas amžius, amžius privalo būti skaičius.");
-} else if (amzius < 0) {
+} else if (amzius <= 0) {
   console.log("Įvestas amžius yra per mažas.");
 } else if (amzius < 6) {
   console.log("į mokyklą neina.");
@@ -18,17 +18,15 @@ if (isNaN(amzius)) {
   console.log(
     "Tikriausiai mokosi pagrindinėje, tačiau gali būti ir devintokas."
   );
-} else if (amzius <= 18) {
+} else if (amzius < 18) {
   console.log("eina į gimnaziją");
-} else if (amzius <= 19) {
+} else if (amzius < 19) {
   console.log(
     "Tikriausiai mokosi gimnazijoje, tačiau mokyklą gali būti ir baigęs."
   );
-} else if (amzius <= 19) {
-  console.log("mokyklą baigė.");
-} else if ((amzius) => 19) {
-  console.log("mokyklą baigė.");
-} else if ((amzius) => 120) {
+} else if (amzius < 120) {
+  console.log("baigė mokyklą.");
+} else if (amzius >= 120) {
   console.log("įvestas amžius yra per didelis..");
 } else {
   console.log("Netinkamai nurodytas amžius, amžius privalo būti skaičius.");
