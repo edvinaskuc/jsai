@@ -2,7 +2,7 @@ let amzius = prompt("Įveskite savo amžių");
 
 if (isNaN(amzius)) {
   console.log("Netinkamai nurodytas amžius, amžius privalo būti skaičius.");
-} else if (amzius <= 0) {
+} else if (amzius < 0) {
   console.log("Įvestas amžius yra per mažas.");
 } else if (amzius < 6) {
   console.log("į mokyklą neina.");
