@@ -6,7 +6,7 @@
 // 4. 15-18 metų eina į gimnaziją.
 // 5. 19+ mokyklą baigė.
 
-let amzius = 122;
+let amzius = 18;
 
 if (amzius < 0) {
   console.log("Įvestas amžius yra per mažas.");
@@ -33,17 +33,3 @@ if (amzius < 0) {
 // 7.2. Jeigu amžius yra 10 metai, tai parašyti: "Tikriausiai mokosi pradinėje, tačiau gali būti ir penktokas."
 // 7.3. Jeigu amžius yra 14 metai, tai parašyti: "Tikriausiai mokosi pagrindinėje, tačiau gali būti ir devintokas."
 // 7.4. Jeigu amžius yra 18 metai, tai parašyti: "Tikriausiai mokosi gimnazijoje, tačiau mokyklą gali būti ir baigęs."
-
-// let amzius = 19
-
-// if(amzius < 6) {
-//     console.log('į mokyklą neina')
-// } else if(amzius <= 10) {
-//     console.log('eina į pradinę klasę')
-// } else if(amzius <= 14) {
-//     console.log('eina į pagrindine')
-// } else if(amzius <= 18) {
-//     console.log('eina į gimnazija')
-// } else {
-//     console.log('mokyklą baigė')
-// }
