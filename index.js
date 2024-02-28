@@ -6,11 +6,11 @@
 // 4. 15-18 metų eina į gimnaziją.
 // 5. 19+ mokyklą baigė.
 
-let amzius = 18;
+let amzius = 6;
 
 if (amzius <= 0) {
   console.log("Įvestas amžius yra per mažas.");
-} else if (amzius < 6) {
+} else if (amzius <= 6) {
   console.log("į mokyklą neina.");
 } else if (amzius >= 7 && amzius <= 10) {
   console.log("eina į pradinę klasę");
