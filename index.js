@@ -6,18 +6,25 @@
 // 4. 15-18 metų eina į gimnaziją.
 // 5. 19+ mokyklą baigė.
 
-let amzius = 19;
+let amzius = 18;
 
-if (amzius < 6) {
+if (amzius <= 0) {
+  console.log("Įvestas amžius yra per mažas.");
+} else if (amzius < 6) {
   console.log("į mokyklą neina.");
-} else if ((amzius) => 7 && amzius <= 10) {
+} else if (amzius >= 7 && amzius <= 10) {
   console.log("eina į pradinę klasę");
-} else if ((amzius) => 11 && amzius <= 14) {
+} else if (amzius >= 11 && amzius <= 14) {
   console.log("eina į pagrindinę");
-} else if ((amzius) => 15 && amzius <= 18) {
+} else if (amzius >= 15 && amzius <= 18) {
   console.log("eina į gimnaziją");
-} else if ((amzius) => 19) {
+} else if (amzius >= 19 && amzius < 120) {
   console.log("mokyklą baigė.");
+} else if (amzius >= 120) {
+  console.log("Įvestas amžius yra per didelis.");
 } else {
   console.log("Įveskite savo amžių.");
 }
+
+// 6.1. Jeigu amžius yra mažiau nei 0, tai parašyti jog įvestas amžius yra per mažas.
+// 6.2. Jeigu amžius yra daugau nei 120, tai parašyti jog įvestas amžius yra per didelis.
